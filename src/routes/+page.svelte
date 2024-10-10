@@ -1,5 +1,6 @@
 <script>
   import Navbar from "../modules/+navbar.svelte";
+  import Page from "./home/+page.svelte";
 </script>
 
 <style>
@@ -15,6 +16,10 @@
 
     </Navbar>
   </div>
+
+  <Page>
+    
+  </Page>
 </div>
 
 
