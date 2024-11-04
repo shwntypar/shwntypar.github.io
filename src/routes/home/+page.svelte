@@ -1,6 +1,6 @@
 <script>
     import Navbar from "../../modules/+navbar.svelte";
-    import Page from "../socials/+page.svelte";
+    import Page from "../contact/+page.svelte";
 </script>
 
 <style>
@@ -27,7 +27,7 @@
                     .</p>
     
                 <div class="flex justify-end mt-6 w-full">
-                    <a class="flex font-bold text-md max-md:text-sm text-white bg-slate-700 rounded-full max-md:w-auto w-3/12 justify-center items-center px-4 py-3 hover:bg-slate-900" href="socials">Reach out 
+                    <a class="flex font-bold text-md max-md:text-sm text-white bg-slate-700 rounded-full max-md:w-auto w-3/12 justify-center items-center px-4 py-3 hover:bg-slate-900" href="contact">Reach out 
                         <svg class="w-6 h-6 text-gray-800 dark:text-white ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
                         </svg>              

@@ -3,9 +3,9 @@
     import { Button, Dropdown, DropdownItem, DropdownDivider, DropdownHeader } from 'flowbite-svelte';
 
     export let tabs = [
-        { name: "About me", link: "/about" },
-        { name: "Projects", link: "/projects" },
-        { name: "Socials", link: "/socials" },
+        { name: "About", link: "/about" },
+        { name: "Portfolio", link: "/portfolio" },
+        { name: "Contact", link: "/contact" },
     ];
 
     let dropdown = false;
@@ -13,7 +13,7 @@
 
 <div class="w-full flex px-10 justify-between items-center bg-slate-900 h-20">
     
-    <a href="/home">
+    <a href="/">
         <span class="text-slate-200 font-semibold">Home</span>
     </a>
 
